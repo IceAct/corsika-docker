@@ -4,10 +4,10 @@
 This will build a docker container for CORSIKA
 
 
-To build you `cd` into the corsika-<version> directory and then execute `docker build` like this:
+To build you  execute `docker build` like this:
 
 ```
-docker build --build-arg CORSIKA_PASSWORD=the_password_you_received -t <useful container name e.g: corsika:75600> .
+docker build --build-arg CORSIKA_PASSWORD=the_password_you_received -t <useful container name e.g: corsika-iceact:75600> .
 ```
 
 with the config given in `config.h`. The install directory is `/opt/corsika-<version>/run`
